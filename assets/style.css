@@ -62,9 +62,9 @@ nav a{
         /* Header related css */
 .header{
 background-color: #FFF8F3;
-background-image: url(../media/header_bg.png);
+background-image: url(../media/header_bg.png) ,url('../media/developer.png');
 background-repeat: no-repeat;
-background-position: bottom right;
+background-position: bottom right ,top left;
 }
 .banner{
     padding: 30px 30px 0px 150px;
@@ -207,7 +207,9 @@ width: 50%;
 .form-btn input ,textarea{
     display: block;
     background: white; 
-    border-radius: 5px
+    border-radius: 5px;
+    width: 100%;
+    border: 0;
 }
 .input-btn-1{
     padding: 10px 170px 10px 10px;
