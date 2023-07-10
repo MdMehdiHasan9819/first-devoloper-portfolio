@@ -161,8 +161,11 @@ font-weight: 400;
 /* resume section css start now */
 .resume-container{
     display: flex;
+    gap: 50px;
 }
-
+.resume-container hr{
+    margin: 30px;
+}
 .resume-column-title>h1{
 color: #474747;
 font-size: 30px;
@@ -182,4 +185,12 @@ font-weight: 600;
 color: #757575;
 font-size: 16px;
 font-weight: 400;
+padding-bottom: 15px;
 }
+
+.download-cv{
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+/* footer css start now */
