@@ -199,4 +199,22 @@ padding-bottom: 15px;
     padding: 100px 200px;
     background-color: #FFF8F3;
     margin-top: 100px;
+    gap: 50px;
+}
+.footer-column{
+width: 50%;
+}
+.form-btn input ,textarea{
+    display: block;
+    background: white; 
+    border-radius: 5px
+}
+.input-btn-1{
+    padding: 10px 170px 10px 10px;
+    margin-bottom: 20px;
+}
+.submit-btn{
+    margin-top: 20px;
+    background: #FD6E0A;
+     border-radius: 5px;
 }
