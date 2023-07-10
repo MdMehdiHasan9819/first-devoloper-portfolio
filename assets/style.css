@@ -24,6 +24,9 @@ main{
     max-width: 1140px;
     margin: 0 auto;
 }
+main > section{
+    margin-top: 110px;
+}
 /* navbar css start now */
 nav{
     display: flex;
@@ -130,5 +133,53 @@ padding: 30px 150px;
 }
 .skills-container{
     display: flex;
-    
+    gap: 30px;
+
+}
+.skills{
+background: white;
+box-shadow: -2px 2px 22px 10px rgba(94,122,33,1);
+padding: 10px 15px;
+border-radius: 5px;
+gap: 30px;
+}
+
+.skill-title{
+color: #181818;
+ font-size: 20px;
+ font-weight: 700;
+}
+
+.skill-description{
+color: #757575;
+font-size: 16px;
+font-weight: 400;
+}
+#What-i-do{
+    background-color: #FFF8F3;
+}
+/* resume section css start now */
+.resume-container{
+    display: flex;
+}
+
+.resume-column-title>h1{
+color: #474747;
+font-size: 30px;
+font-weight: 700;
+}
+.resume-item-title{
+color: #474747;
+font-size: 25px;
+font-weight: 700;
+}
+.resume-item-institute{
+color: #757575;
+font-size: 20px;
+font-weight: 600;
+}
+.resume-description{
+color: #757575;
+font-size: 16px;
+font-weight: 400;
 }
