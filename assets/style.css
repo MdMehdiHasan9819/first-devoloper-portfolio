@@ -194,3 +194,9 @@ padding-bottom: 15px;
     margin-bottom: 25px;
 }
 /* footer css start now */
+#footer-section{
+    display: flex;
+    padding: 100px 200px;
+    background-color: #FFF8F3;
+    margin-top: 100px;
+}
